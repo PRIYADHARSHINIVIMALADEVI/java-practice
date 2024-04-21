@@ -20,7 +20,7 @@ class Account {
             balance -= amount;
             System.out.println(amount + " withdrawn successfully.");
         } else {
-            System.out.println("Insufficient funds.");
+            System.out.println("Insufficient balance.");
         }
     }
 
